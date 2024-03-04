@@ -1,5 +1,4 @@
 import Productcard from '@/components/productcard'
-import Image from 'next/image'
 import p1 from '../../public/p1.jpg'
 import p2 from '../../public/p2.jpg'
 import p3 from '../../public/p3.jpg'
