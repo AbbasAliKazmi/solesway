@@ -7,7 +7,7 @@ import Image from "next/image"
 
 export default function  Hero(){
   return (
-    <section className="flex py-6 gap-y-10 flex-col lg:flex-row">
+    <section className="flex py-6 gap-y-10 flex-col lg:flex-row mt-10">
 
        {/*left div*/}
     <div className="flex-1">
