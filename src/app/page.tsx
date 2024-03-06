@@ -8,8 +8,8 @@ export default function Home() {
   return (
     <div>
       <Hero/>
-      <Promotions/>
-      {/* <Productslist/> */}
+      {/* <Promotions/> */}
+      <Productslist/>
     </div>
   );
 }

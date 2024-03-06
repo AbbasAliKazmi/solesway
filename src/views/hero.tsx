@@ -19,7 +19,7 @@ export default function  Hero(){
       Anyone can beat you but no one can beat your outfit as long as you wear Dine outfits.
       </p>
       <div className="relative flex items-center">
-      <Search className="absolute ml-2  items-center pointer-events-none text-gray-100" size={26}/>
+      <Search className="absolute ml-2  mt-4 pointer-events-none text-gray-100" size={26}/>
       <Button className="bg-black h-12 px-8 mt-4">Shop Now</Button>
       </div>
       
