@@ -1,5 +1,6 @@
 import Productcard from '@/components/productcard'
 import { products } from '@/utils/mock'
+import { StaticImageData } from 'next/image'
 
 
 
@@ -14,7 +15,12 @@ const Productslist = () => {
         <div className='flex justify-evenly mt-16'> 
         {
             productChecks.map((product) => (
-                <Productcard key={product.id} title={product.name} price= {product.price} img={product.image} />
+                <Productcard 
+                key={product.id} 
+                title={product.name} 
+                price= {product.price} 
+                img={product.image as StaticImageData}
+                category={product.category} />
             ))
         }
             {/* <Productcard title="Plain Hoodie" price= {200} img={p1} />

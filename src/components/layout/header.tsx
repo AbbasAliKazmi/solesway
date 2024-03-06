@@ -1,31 +1,30 @@
 import logo from "../../../public/logo.png";
 import Image from "next/image"
-import { ShoppingCart } from "lucide-react"
+import { ShoppingCart , Search } from "lucide-react"
 import Link from "next/link"
 import { Input } from "@/components/ui/input"
-import { Search } from "lucide-react"
 
 export default function Header() {
     return (
         <div className='flex justify-between items-center py-6 px-8'>
             <Image className="w-20 h-7" src={logo} alt="solesway" />
-            <ul className='flex gap-x-10  text-lg '>
-                <li>
-                    <Link href={"/"}>
+            <ul className='flex gap-x-10'>
+                <li className="text-lg">
+                    <Link href={"category/male"}>
                         Male
                     </Link>
                 </li>
-                <li>
-                    <Link href={"/"}>
+                <li className="text-lg">
+                    <Link href={"category/female"}>
                         Female
                     </Link>
                 </li>
-                <li>
-                    <Link href={"/"}>
+                <li className="text-lg">
+                    <Link href={"category/kids"}>
                         Kids
                     </Link>
                 </li>
-                <li>
+                <li className="text-lg">
                     <Link href={"/products"}>
                         All Products
                     </Link>
