@@ -3,9 +3,6 @@ import { products } from '@/utils/mock'
 import { StaticImageData } from 'next/image'
 
 
-
-
-
 const Productslist = () => {
     const productChecks = products.slice(0,3)
     return (
@@ -20,15 +17,11 @@ const Productslist = () => {
                 title={product.name} 
                 price= {product.price} 
                 img={product.image as StaticImageData}
-                category={product.category} />
+                category={product.category} 
+                id={product.id}
+                />
             ))
         }
-            {/* <Productcard title="Plain Hoodie" price= {200} img={p1} />
-            <Productcard title="Long Coat" price={590} img={p2}/>
-            <Productcard  title="Rip Jeans" price={350} img={p3}/> */}
-            {/* <Productcard  title="Kids Wear" price={499} img={p4}/> */}
-            {/* <Productcard title="Business Suit" price={899} img={p5}/> */}
-            {/* <Productcard title="Man T-Shirt" price={450} img={p6}/> */}
         </div>
     </div>    
 

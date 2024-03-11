@@ -13,42 +13,42 @@ export const products: Product[]=[{
     id: 1,
     name: 'Product 1',
     price: 50,
-    category: 'Female',
+    category: 'female',
     image: p1    
 },
 {
         id: 2,
         name: 'Product 2',
         price: 80,
-        category: 'Kid',
+        category: 'kids',
         image: p6 
 },
 {
     id: 3,
     name: 'Product 3',
     price: 110,
-    category:'Female',
+    category:'female',
     image: p5
 },
 {
     id: 4,
     name: 'Product 4',
     price: 150,
-    category:'Male',
+    category:'male',
     image: p4
 },
 {
     id: 5,
     name: 'Product 5',
     price: 90,
-    category:'Male',
+    category:'male',
     image: p2
 },   
 {
     id: 6,
     name: 'Product 6',
     price: 200,
-    category:'Kid',
+    category:'kids',
     image: p3
 }, 
 ];
