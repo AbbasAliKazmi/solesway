@@ -12,6 +12,7 @@ import p6 from '../../public/p6.jpg'
 export const products: Product[]=[{
     id: 1,
     name: 'Product 1',
+    tagline: "Dress",
     price: 50,
     category: 'female',
     image: p1    
@@ -19,6 +20,7 @@ export const products: Product[]=[{
 {
         id: 2,
         name: 'Product 2',
+        tagline: "Dress",
         price: 80,
         category: 'kids',
         image: p6 
@@ -26,6 +28,7 @@ export const products: Product[]=[{
 {
     id: 3,
     name: 'Product 3',
+    tagline: "Dress",
     price: 110,
     category:'female',
     image: p5
@@ -33,6 +36,7 @@ export const products: Product[]=[{
 {
     id: 4,
     name: 'Product 4',
+    tagline: "Dress",
     price: 150,
     category:'male',
     image: p4
@@ -40,6 +44,7 @@ export const products: Product[]=[{
 {
     id: 5,
     name: 'Product 5',
+    tagline: "Dress",
     price: 90,
     category:'male',
     image: p2
@@ -47,6 +52,7 @@ export const products: Product[]=[{
 {
     id: 6,
     name: 'Product 6',
+    tagline: "Dress",
     price: 200,
     category:'kids',
     image: p3
