@@ -1,3 +1,4 @@
+import SubPage from "@/components/layout/subscription";
 import Hero from "@/views/hero";
 import Productslist from "@/views/productslist";
 import Promotions from "@/views/promotions";
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero/>
       {/* <Promotions/> */}
       <Productslist/>
+      <SubPage/>
     </div>
   );
 }
