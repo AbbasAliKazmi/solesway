@@ -1,3 +1,4 @@
+import ProdHighlight from "@/components/layout/prodhighlight";
 import SubPage from "@/components/layout/subscription";
 import Hero from "@/views/hero";
 import Productslist from "@/views/productslist";
@@ -11,6 +12,7 @@ export default function Home() {
       <Hero/>
       {/* <Promotions/> */}
       <Productslist/>
+      <ProdHighlight/>
       <SubPage/>
     </div>
   );
