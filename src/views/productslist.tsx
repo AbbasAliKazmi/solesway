@@ -6,10 +6,10 @@ import { StaticImageData } from 'next/image'
 const Productslist = () => {
     const productChecks = products.slice(0,3)
     return (
-    <div> 
+    <div className='mt-16'> 
         <h3 className="text-blue-700 flex justify-center  font-semibold">PRODUCTS</h3>
         <h2 className="text-gray-700 flex justify-center  font-bold text-4xl">Check What We Have</h2>   
-        <div className='flex justify-evenly mt-16'> 
+        <div className='flex justify-evenly mt-8'> 
         {
             productChecks.map((product) => (
                 <Productcard 

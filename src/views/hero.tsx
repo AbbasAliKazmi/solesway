@@ -18,9 +18,11 @@ export default function  Hero(){
       <p className="leading-7 [&:not(:first-child)]:mt-6">
       Anyone can beat you but no one can beat your outfit as long as you wear Dine outfits.
       </p>
-      <div className="relative flex items-center">
-      <Search className="absolute ml-2  mt-4 pointer-events-none text-gray-100" size={26}/>
-      <Button className="bg-black h-12 px-8 mt-4">Shop Now</Button>
+      <div className="relative flex items-center mt-4">
+        <Search className="absolute ml-2  pointer-events-none text-gray-100" size={26}/>
+        <Button className="bg-black h-12 px-8">
+          <p className="-mr-4">Shop Now</p>
+        </Button>
       </div>
       
     </div >

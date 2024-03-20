@@ -22,23 +22,23 @@ export const products: Product[]=[{
         name: 'Product 2',
         tagline: "Dress",
         price: 80,
-        category: 'kids',
-        image: p6 
+        category: 'female',
+        image: p2 
 },
 {
     id: 3,
     name: 'Product 3',
     tagline: "Dress",
     price: 110,
-    category:'female',
-    image: p5
+    category:'male',
+    image: p3
 },
 {
     id: 4,
     name: 'Product 4',
     tagline: "Dress",
     price: 150,
-    category:'male',
+    category:'kids',
     image: p4
 },
 {
@@ -47,14 +47,14 @@ export const products: Product[]=[{
     tagline: "Dress",
     price: 90,
     category:'male',
-    image: p2
+    image: p5
 },   
 {
     id: 6,
     name: 'Product 6',
     tagline: "Dress",
     price: 200,
-    category:'kids',
-    image: p3
+    category:'male',
+    image: p6
 }, 
 ];
