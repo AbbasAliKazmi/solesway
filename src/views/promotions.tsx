@@ -24,7 +24,7 @@ const Promotions = () => {
                     </div>
                     {/* 2nd box with boy and peach bg */}
                     <div className="bg-yellow-200 row-span-2 sm:row-span-auto lg:mt-0 mt-2">
-                        <div className="lg:py-3 px-16 ">
+                        <div className="lg:px-1 px-20 lg:py-1">
                             <p className="text-base px-2 lg:mt-0 mt-2">Flex SweatShirt</p>
                             <p className="text-lg px-2">
                                 <span className="line-through">$100  </span>
@@ -35,7 +35,7 @@ const Promotions = () => {
                     </div>
                     {/* 3rd box with boy and blue bg */}
                     <div className="bg-slate-300 row-span-2 h-[58] lg:mt-0 mt-2">
-                        <div className="lg:py-3 px-16 ">
+                        <div className="lg:px-1 px-20 lg:py-1">
                             <p className="text-base px-2 lg:mt-0 mt-2">Flex Push Button Bomber</p>
                             <p className="text-lg px-2">
                                 <span className="line-through">$225.00  </span>

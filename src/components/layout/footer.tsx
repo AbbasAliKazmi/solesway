@@ -3,6 +3,7 @@ import Image from "next/image";
 
 export default function Footer() {
     return (
+        
     <div>  
       <div className="h-px w-full bg-black"></div>   
 

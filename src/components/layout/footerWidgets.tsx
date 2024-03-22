@@ -2,7 +2,7 @@ import { Link } from "lucide-react";
 import Image from "next/image";
 import logo from "../../../public/logo.png";
 
-export default function Foooter() {
+export default function FooterWidgets() {
     return (
         <div>
         <div className="h-px w-full bg-black mt-11"></div> 
@@ -10,9 +10,9 @@ export default function Foooter() {
             <div className="mx-auto max-w-screen-xl space-y-8 px-4 py-16 sm:px-6 lg:space-y-16 lg:px-8">
                 <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
                     <div>
-                        <button href={"/"}>
+                        <Link href={"/"}>
                             <Image className="w-20 h-7" src={logo} alt="solesway" />
-                        </button>
+                        </Link>
                         <p className="mt-4 max-w-xs text-gray-500">
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse non cupiditate quae nam
                             molestias.
