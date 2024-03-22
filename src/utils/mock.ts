@@ -166,7 +166,7 @@ export const products: Product[]=[{
 {
     id: 18,
     name: 'Product 18',
-    tagline: "Pink Girl Frok",
+    tagline: "Pink Girl ",
     price: 950,
     category: 'kids',
     image: p18
