@@ -219,16 +219,4 @@ export const products: Product[]=[{
     category: 'kids',
     image: p24
 },
-{
-    id: 25,
-    name: 'Product 25',
-    tagline: "Girl Shoes",
-    price: 450,
-    category: 'kids',
-    image: p25
-},
-
-
-
-
 ];
