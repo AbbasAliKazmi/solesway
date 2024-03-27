@@ -23,6 +23,7 @@ import p21 from 'public/productImages/p21.jpg'
 import p22 from 'public/productImages/p22.jpg'
 import p23 from 'public/productImages/p23.jpg'
 import p24 from 'public/productImages/p24.jpg'
+import p25 from 'public/productImages/24.jpg'
 
 
 
