@@ -1,8 +1,8 @@
 import { Button } from "@/components/ui/button"
 import Image from 'next/image'
-import event1 from "../../public/event1.webp";
-import event2 from "../../public/event2.webp";
-import event3 from "../../public/event3.webp";
+import event1 from "public/event1.webp";
+import event2 from "public/event2.webp";
+import event3 from "public/event3.webp";
 
 const Promotions = () => {
     return (

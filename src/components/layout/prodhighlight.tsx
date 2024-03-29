@@ -1,6 +1,6 @@
 import { Button } from "../ui/button";
 import Image from "next/image";
-import ph1 from "../../../public/ph1.jpg";
+import ph1 from "public/ph1.jpg";
 import Link from "next/link";
 
 export default function ProdHighlight() {
